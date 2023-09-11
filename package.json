@@ -1,14 +1,16 @@
 {
-  "name": "node-hello-world-minimal",
+  "name": "nodetest",
   "version": "1.0.0",
-  "description": "Node.js minimal example",
-  "author": "Steve Martinelli <s.martinelli@gmail.com>",
-  "main": "app.js",
+  "description": "Test project for AzureDevops using nodeJS",
+  "main": "index.js",
   "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node app.js",
     "build": "node app.js"
-    "start": "node app.js"
   },
+  "author": "",
+  "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.18.1"
   }
 }
