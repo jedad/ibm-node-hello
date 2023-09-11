@@ -10,6 +10,7 @@
     "url" : "https://github.com/IBM/node-hello-world-minimal.git"
   },
   "scripts": {
+    "build": "node app.js"
     "start": "node app.js"
   },
   "dependencies": {
