@@ -26,7 +26,7 @@ stages:
         # command: build
         dockerfile: '$(Build.SourcesDirectory)/Dockerfile2'
         containerRegistry: 'itservicesaj'
-        repository: 'jedad.ibm-node-hello'
+        repository: 'itservicesaj/ibm-node-hello'
         command: 'buildAndPush'
         #Dockerfile: '**/Dockerfile'
         tags: |
