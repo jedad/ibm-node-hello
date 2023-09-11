@@ -98,4 +98,20 @@ steps:
 #     npm install
 #     npm run build
 #   displayName: 'npm install and build'
-
+################################################################################
+# trigger:
+# - none
+# pool:
+#   vmImage: ubuntu-latest
+# steps:
+# - task: Npm@1
+#   displayName: npm install
+#   inputs:
+#     command: 'install'
+#     workingDir: '$(Build.SourcesDirectory)/node/'
+# - task: Npm@1
+#   displayName: npm run build
+#   inputs:
+#     command: 'custom'
+#     workingDir: '$(Build.SourcesDirectory)/node/'
+#     customCommand: 'run build'
