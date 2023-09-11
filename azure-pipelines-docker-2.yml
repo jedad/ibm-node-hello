@@ -24,7 +24,7 @@ stages:
       displayName: Build an image and push
       inputs:
         # command: build
-        dockerfile: '$(Build.SourcesDirectory)/Dockerfile'
+        dockerfile: '$(Build.SourcesDirectory)/Dockerfile2'
         containerRegistry: 'itservicesaj-docker'
         repository: 'jedad.ibm-node-hello'
         command: 'buildAndPush'
